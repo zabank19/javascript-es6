@@ -15,12 +15,3 @@ let additionalProperties = {
 
 
 console.log(newStudentProfile);
-
-// ผลที่ได้ต้องเป็นแบบนี้
-/*{
-  name: 'John',
-  age: 20,
-  scores: { thai: 40 },
-  photo: 'https://placedog.net/500',
-  hobbies: [ 'Football', 'Coding' ]
-}*/
