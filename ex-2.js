@@ -12,8 +12,6 @@ let studentScores = {
   tech: 100,
 };
 
-let newStudentProfile = {};
-
 // Start coding here
 
 console.log(newStudentProfile);
