@@ -13,5 +13,4 @@ let additionalProperties = {
 
 // Start coding here
 
-
 console.log(newStudentProfile);
