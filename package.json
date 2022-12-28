@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/techupth/js-hh-es6/issues"
   },
-  "homepage": "https://github.com/techupth/js-hh-es6#readme"
+  "homepage": "https://github.com/techupth/js-hh-es6#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.3.1"
+  }
 }
