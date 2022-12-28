@@ -1,7 +1,7 @@
 import fs from "fs/promises";
 
 describe("exercise 1: ES6 tests cases", () => {
-  test("เมื่อ console.log(newStudentProfile) จะต้องได้ผลลัพธ์ออกมาเป็นแบบนี้", async () => {
+  test("เมื่อ console.log(newStudentProfile) จะต้องได้ผลลัพธ์ตามที่โจทย์กำหนด", async () => {
     const data = await fs.readFile("./ex-1.js");
     const code = `${data} return newStudentProfile`;
 
