@@ -18,6 +18,6 @@ describe("exercise 7: Other Features tests case", () => {
     const func = new Function(code);
     const result = func();
 
-    expect(result).toBe("English score does not defined");
+    expect(result).toBe("English score is not defined");
   });
 });

@@ -8,6 +8,6 @@ describe("exercise 6: Other Features tests case", () => {
     const func = new Function(code);
     const result = func();
 
-    expect(result).toBe("Height doesn't defined");
+    expect(result).toBe("Height is not defined");
   });
 });
