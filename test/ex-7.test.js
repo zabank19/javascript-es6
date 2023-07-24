@@ -11,7 +11,7 @@ describe("exercise 7: Other Features tests case", () => {
     expect(result).toBe(undefined);
   });
 
-  test("โปรแกรมจะต้องไม่เกิด Error และเมื่อทำการ console.log ตัว `result2` จะได้ผลลัพธ์แสดงทางหน้าจอออกมาว่า 'English score does not defined'", async () => {
+  test("โปรแกรมจะต้องไม่เกิด Error และเมื่อทำการ console.log ตัว `result2` จะได้ผลลัพธ์แสดงทางหน้าจอออกมาว่า 'English score is not defined'", async () => {
     const data = await fs.readFile("./ex-7.js");
     const code = `${data} return result2`;
 
